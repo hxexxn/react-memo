@@ -97,11 +97,11 @@ function Blog() {
               <div className="like">
                 <div className="delete" onClick={() => {
                   let copy = [...post];
-                  copy.pop(i);
+                  copy.splice(i, 1);
                   setPost(copy)
 
                   let likeCopy = [...like];
-                  likeCopy.pop(i);
+                  likeCopy.splice(i, 1);
                   setLike(likeCopy)
                 }}>
                   <FontAwesomeIcon icon={faSquareMinus} />
