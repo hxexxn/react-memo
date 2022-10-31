@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+html {
+  margin: 0 auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  background-color: #FEF9E7;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.title {
+  width: 400px;
+  height: 100px;
+  background-color: #F4D03F;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.input-form {
+  width: 400px;
+  height: 250px;
+  /* border: 1px solid red; */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px solid #dddddd;
+  background-color: #FBFCFC;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+.input {
+  width: 350px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  padding-left: 5px;
+  margin: 0 auto;
+}
+
+.subject {
+  height: 35px;
+}
+
+.content {
+  height: 100px;
+  padding-top: 5px;
+}
+
+.btn {
+  width: 350px;
+  height: 35px;
+  border: none;
+  color: black;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.blog-content {
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  text-align: justify;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  margin: 0 auto;
+  background-color: #FBFCFC;
+}
+
+.blog-content p {
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+.blog-content .like {
+  display: flex;
+  justify-content: space-between;
+  color: #E74C3C;
+  font-size: 1rem;
+}
+
+.blog-content .delete {
+  color: #eee;
+  font-size: 1rem;
+}
