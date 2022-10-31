@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import "./Blog.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareMinus } from "@fortawesome/free-regular-svg-icons"
@@ -16,8 +16,8 @@ function Blog() {
     // }
   ])
 
-  let list = [{ title: "one-title", content: "one-content" },
-  { title: "two-title", content: "two-content" }]
+  // let list = [{ title: "one-title", content: "one-content" },
+  // { title: "two-title", content: "two-content" }]
 
   // 좋아요
   let [like, setLike] = useState([0, 0]);
@@ -31,7 +31,7 @@ function Blog() {
     }
   ])
 
-  const { title, content } = inputPost;
+  // const { title, content } = inputPost;
 
   // input
   const inputValue = (e) => {
